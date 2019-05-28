@@ -44,7 +44,7 @@ class NacosRefreshConfig extends Command
                 getenv("LARAVEL_ENV"),
                 getenv("LARAVEL_NACOS_DATAID"),
                 getenv("LARAVEL_NACOS_GROUPID"),
-                getenv("LARAVEL_NACOS_NAMESPACEID") ? : "",
+                getenv("LARAVEL_NACOS_NAMESPACEID") ? : ""
             )->runOnce()
         );
     }
